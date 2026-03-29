@@ -16,9 +16,9 @@ Tot ce construiesc este documentat transparent, în spiritul open-source.
 |---|---|
 | 🎬 YouTube | [youtube.com/@Dorulian](https://youtube.com/@Dorulian) |
 | ✍️ Substack | [dorulian.substack.com](https://dorulian.substack.com) |
-| 💬 Telegram | [Comunitate Dorulian](http://t.me/viatacudoru) |
+| 💬 Telegram | [Comunitate Cafeneaua lui Doru](http://t.me/viatacudoru) |
 | ☕ Ko-fi | [ko-fi.com/dorulian](https://ko-fi.com/dorulian) |
-| 🌐 Majordom OS | [majordom.io](https://majordom.dorustoica.ro/) |
+| 🌐 Majordom OS | [majordom.dorustoica.ro](https://majordom.dorustoica.ro/) |
 
 ### 📁 Structura repo-ului
 
