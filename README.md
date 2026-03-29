@@ -16,19 +16,18 @@ Tot ce construiesc este documentat transparent, în spiritul open-source.
 |---|---|
 | 🎬 YouTube | [youtube.com/@Dorulian](https://youtube.com/@Dorulian) |
 | ✍️ Substack | [dorulian.substack.com](https://dorulian.substack.com) |
-| 💬 Telegram | [Comunitate Cafeneaua lui Doru](http://t.me/viatacudoru) |
+| 💬 Telegram | [Comunitate Dorulian](https://t.me/dorulian) |
 | ☕ Ko-fi | [ko-fi.com/dorulian](https://ko-fi.com/dorulian) |
-| 🌐 Majordom OS | [majordom.dorustoica.ro](https://majordom.dorustoica.ro/) |
+| 🌐 Majordom OS | [majordom.io](https://majordom.io) |
 
 ### 📁 Structura repo-ului
 
-```
-resurse/
-├── homelab/        ← Proxmox, LXC, Docker, rețea
-├── ai-local/       ← Ollama, modele locale, GPU setup
-├── automatizari/   ← n8n, scripturi, fluxuri
-└── proiecte/       ← Majordom OS și alte proiecte personale
-```
+| Folder | Conținut |
+|---|---|
+| [homelab/](./homelab/) | Proxmox, LXC, Docker, rețea |
+| [ai-local/](./ai-local/) | Ollama, modele locale, GPU setup |
+| [automatizari/](./automatizari/) | n8n, scripturi, fluxuri |
+| [proiecte/](./proiecte/) | Majordom OS și alte proiecte personale |
 
 ### 🤝 Contribuții
 
@@ -48,19 +47,18 @@ Everything I build is documented transparently, in the spirit of open source.
 |---|---|
 | 🎬 YouTube | [youtube.com/@Dorulian](https://youtube.com/@Dorulian) |
 | ✍️ Substack | [dorulian.substack.com](https://dorulian.substack.com) |
-| 💬 Telegram | [Dorulian Community](https://t.me/dorulian) |
+| 💬 Telegram | [Cafeneaua lui Doru Community](http://t.me/viatacudoru) |
 | ☕ Ko-fi | [ko-fi.com/dorulian](https://ko-fi.com/dorulian) |
-| 🌐 Majordom OS | [majordom.io](https://majordom.io) |
+| 🌐 Majordom OS | [majordom.dorustoica.ro](https://majordom.dorustoica.ro/) |
 
 ### 📁 Repo structure
 
-```
-resurse/
-├── homelab/        ← Proxmox, LXC, Docker, networking
-├── ai-local/       ← Ollama, local models, GPU setup
-├── automatizari/   ← n8n, scripts, automation flows
-└── proiecte/       ← Majordom OS and other personal projects
-```
+| Folder | Content |
+|---|---|
+| [homelab/](./homelab/) | Proxmox, LXC, Docker, networking |
+| [ai-local/](./ai-local/) | Ollama, local models, GPU setup |
+| [automatizari/](./automatizari/) | n8n, scripts, automation flows |
+| [proiecte/](./proiecte/) | Majordom OS and other personal projects |
 
 ### 🤝 Contributing
 
