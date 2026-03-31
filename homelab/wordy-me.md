@@ -32,8 +32,6 @@ Am creat un container LXC ultra-eficient pentru a găzdui aplicația.
 - Rețea: IP Static `10.10.1.71`
 - **Acțiune Critică:** Am activat `Options -> Features -> Nesting`. _De ce?_ Permite Docker să gestioneze straturile de fișiere în interiorul containerului Proxmox.
 
-> 🎬 **Notiță filmare:** Arată opțiunea Nesting în interfața Proxmox înainte să creezi containerul. Spune explicit: _„Dacă uiți să activezi asta, Docker nu va porni și vei pierde timp să îți dai seama de ce."_ E un moment vizual clar pe care spectatorul îl poate replica imediat.
-
 ---
 
 ## Pasul 2: Instalare Docker
@@ -50,8 +48,6 @@ sudo sh ./get-docker.sh
 
 _De ce?_ Docker izolează aplicația (Frontend și Backend) de sistemul de operare principal, asigurând portabilitatea.
 
-> 🎬 **Notiță filmare:** Menționează că acesta e scriptul oficial Docker, nu ceva random de pe internet — contează pentru cei care sunt prudenți cu ce rulează ca root. Poți adăuga: _„Îl descărcăm mai întâi și îl rulăm separat, tocmai ca să putem vedea ce face dacă vrem."_
-
 ---
 
 ## Pasul 3: Descărcare WordyMe
@@ -66,8 +62,6 @@ apt install git -y
 git clone https://github.com/TeamCoderz/WordyMe.git
 cd WordyMe
 ```
-
-> 🎬 **Notiță filmare:** Arată repo-ul pe GitHub înainte să clonezi — caută fișierul `Dockerfile` sau `docker-compose.yml` și spune: _„Dacă o aplicație de pe GitHub are acest fișier, înseamnă că tot ce facem astăzi funcționează și pentru ea."_ E momentul în care generalizezi lecția pentru spectator.
 
 ---
 
@@ -91,12 +85,6 @@ CLIENT_URL=http://10.10.1.71:5173
 VITE_BACKEND_URL=http://10.10.1.71:3000
 ```
 
-> 🎬 **Notiță filmare:** Trei momente de explicat verbal:
-> 
-> - La `cp .env.example .env` — _„Nu editez fișierul original, îl copiez. Așa îl pot reseta oricând dacă greșesc ceva."_
-> - La `openssl rand -hex 32` — _„Ăsta e secretul de securitate al aplicației. Trebuie să fie unic — nu folosi ce vezi pe ecranul meu."_
-> - La `VITE_BACKEND_URL` — _„Îi spunem interfeței web unde să găsească datele. Dacă lași localhost aici, aplicația funcționează pe server dar browserul tău nu o poate accesa."_
-
 ---
 
 ## Pasul 5: Personalizare Docker Compose (Rezolvare Login Loop)
@@ -114,10 +102,6 @@ backend:
     - BETTER_AUTH_URL=http://10.10.1.71:3000
 ```
 
-> 🎬 **Notiță filmare:** 
-> docker ps
-> Spune: _„Implicit, backend-ul e invizibil din rețea. Prin această modificare îi deschidem o ușă. Și prin `BETTER_AUTH_URL` îi spunem cine este el cu adevărat — altfel nu știe să valideze logările venite de pe alt aparat."_ Dacă ai timp, arată ce se întâmplă fără această modificare — login loop-ul e mai convingător decât orice explicație.
-
 ---
 
 ## Pasul 6: Lansare și Reconstrucție
@@ -133,8 +117,6 @@ docker compose up -d --build
 # Verificare status
 docker ps
 ```
-
-> 🎬 **Notiță filmare:** Explică `--build` în două propoziții: _„Fără acest flag, Docker folosește versiunea veche a aplicației și modificările noastre din `.env` nu sunt aplicate. `--build` îl forțează să reconstruiască totul de la zero cu noile setări."_ Apoi arată `docker ps` și confirmă că ambele containere (frontend și backend) au statusul `Up`.
 
 ---
 
