@@ -296,7 +296,7 @@ vintage cream vignette border, soft faded edges, aged paper texture
 
 ## Workflow JSON
 
-> [Link spre workflow JSON] — importă direct în ComfyUI prin drag & drop sau Load
+> [doru_workflow.json](doru_workflow.json) — importă direct în ComfyUI prin drag & drop sau Load
 
 ---
 
