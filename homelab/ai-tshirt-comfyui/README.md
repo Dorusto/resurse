@@ -37,7 +37,7 @@ O caricatură sau portret artistic generat din poza ta, rezoluție print-ready (
 
 ## Pas 1: HuggingFace token (pentru modele gated)
 
-Flux Dev și PuLID necesită un cont HuggingFace și acceptarea licenței înainte de descărcare.
+Fără token nu poți descărca modele de pe HuggingFace. Flux Dev și PuLID sunt modele „gated" — necesită cont HuggingFace și acceptarea licenței înainte de descărcare.
 
 1. Creează cont pe [huggingface.co](https://huggingface.co) (gratuit)
 2. Acceptă licența pe pagina fiecărui model gated (buton „Agree and access repository")
