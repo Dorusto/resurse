@@ -10,9 +10,9 @@ tags:
 > Ghid complet pentru a genera un design de tricou personalizat cu AI pe serverul tău.
 > De folosit ca resursă GitHub alături de clipul YouTube.
 
-![preview](preview.png)
+![workflow](workflow.svg)
 
-> Drag & drop this PNG into ComfyUI to load the full workflow automatically.
+> Drag & drop `preview.png` into ComfyUI to load the full workflow automatically.
 
 ---
 
