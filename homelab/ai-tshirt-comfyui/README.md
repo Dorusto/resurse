@@ -206,14 +206,14 @@ Dacă deschizi fișierul JSON (sau un PNG cu workflow embedded) și apar noduri 
 | PuLID weight | 0.90 |
 | PuLID start_at | 0.1 |
 | PuLID end_at | 0.9 |
-| LoRA strength_model | 0.75–1.10 |
+| LoRA strength_model | 0.75–1.30 |
 | Steps | 30 |
 | Scheduler | simple |
 | Sampler | euler |
 | Guidance | 3.0 |
 | Rezoluție | 768 × 1024 |
 
-**Pentru exagerare maximă (stil comic):** LoRA strength 1.2, guidance 3.5
+**Pentru exagerare maximă (stil comic):** LoRA strength 1.3, guidance 3.5
 
 ---
 
@@ -257,7 +257,7 @@ expressive eyes              ← ochi expresivi
 |---|---|
 | Față prea puțin recunoscută | Urcă PuLID weight → 0.95–1.0 |
 | Față prea rigidă | Scade PuLID weight → 0.75 sau start_at → 0.3 |
-| Caricatură prea subtilă | Urcă LoRA strength → 1.1–1.2 |
+| Caricatură prea subtilă | Urcă LoRA strength → 1.1–1.3 |
 | Caricatură prea exagerată | Scade LoRA strength → 0.60–0.70 |
 | Prea fotorealist | Adaugă: `cartoon style, bold graphic illustration` |
 | Fundal prea aglomerat | Adaugă: `simple background, minimal background` |
