@@ -35,19 +35,6 @@ O caricatură sau portret artistic generat din poza ta, rezoluție print-ready (
 
 ---
 
-## Pas 0: ComfyUI Manager (obligatoriu)
-
-ComfyUI Manager permite instalarea custom nodes și descărcarea modelelor direct din interfață, fără comenzi.
-
-**Instalare** (o singură dată, din terminal):
-```bash
-cd ComfyUI/custom_nodes
-git clone https://github.com/ltdrdata/ComfyUI-Manager.git
-```
-Restart ComfyUI → apare butonul **Manager** în interfață.
-
----
-
 ## Pas 1: HuggingFace token (pentru modele gated)
 
 Flux Dev și PuLID necesită un cont HuggingFace și acceptarea licenței înainte de descărcare.
