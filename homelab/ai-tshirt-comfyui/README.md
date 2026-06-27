@@ -42,9 +42,11 @@ Flux Dev și PuLID necesită un cont HuggingFace și acceptarea licenței înain
 1. Creează cont pe [huggingface.co](https://huggingface.co) (gratuit)
 2. Acceptă licența pe pagina fiecărui model gated (buton „Agree and access repository")
 3. **Profile → Settings → Access Tokens → New token** → Read → Create → copiezi token-ul
-4. În ComfyUI: **Manager → Settings → HuggingFace API Token** → lipești → Save
+4. Setează token-ul în ComfyUI — una din două variante:
+   - **ComfyUI Settings** (iconița ⚙️ din interfața principală) → caută `HuggingFace` → lipești token-ul
+   - **Terminal**, înainte de a porni ComfyUI: `export HF_TOKEN=tokenul_tau`
 
-De acum **Manager → Model Manager** poate descărca modele direct, fără comenzi.
+De acum **Manager → Model Manager** poate descărca modele gated direct.
 
 ---
 
