@@ -8,7 +8,6 @@ tags:
 # AI Portrait T-Shirt — ComfyUI + PuLID + CARICATUNER F1
 
 > Ghid complet pentru a genera un design de tricou personalizat cu AI pe serverul tău.
-> De folosit ca resursă GitHub alături de clipul YouTube.
 
 ![workflow](workflow.svg)
 
